@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новое описание сервера</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://animesolution.com/wp-content/uploads/2019/05/Choujigen-Game-Neptune-The-Animation-04_20.44_2019.05.10_18.08.38.jpg'); /* Замените ссылкой на ваше фоновое изображение */
+            background-size: cover;
+            color: #333;
+        }
+       header {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            animation: changeColor 8s infinite; /* Применяем анимацию смены цвета каждые 8 секунд */
+            background-color: rgba(255, 99, 71, 0.8); /* Начальный цвет фона заголовка */
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .server-info {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .server-info h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #444;
+        }
+        .server-info p {
+            margin-top: 5px;
+            line-height: 1.6;
+        }
+        #video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        #youtube-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #eee;
+            padding: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+        }
+        footer p {
+            margin: 0;
+        }
+		       @keyframes changeColor {
+            0% { background-color: rgba(255, 99, 71, 0.8); } /* Начальный цвет */
+            50% { background-color: rgba(255, 165, 0, 0.8); } /* Первая промежуточная оранжевая */
+            100% { background-color: rgba(255, 99, 71, 0.8); } /* Возврат к начальному цвету */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OFFERHVH</h1>
+    </header>
+<link rel="icon" type="image/png" href="offerhvh.png">
+    <div class="container">
+        <section class="server-info">
+            <h2>Описание сервера</h2>
+            <p>Добро пожаловать на наш обновленный сервер! Здесь вы найдете увлекательные события и отличное общение. Мы стремимся создать дружественное и веселое сообщество, где каждый найдет что-то интересное для себя.</p>
+            
+            <h2>IP сервера</h2>
+            <p>Присоединяйтесь к нам по IP: <strong>offerhvh.shock.gg</strong></p>
+            
+            <h2>Количество игроков</h2>
+            <p>Сейчас на сервере играет <span id="player-count">X</span> игроков. Присоединяйтесь и увеличивайте наше сообщество!</p>
+        </section>
+
+        <section class="server-info">
+            <h2>Группа в Discord</h2>
+            <p>Присоединяйтесь к нашей группе в <a href="https://discord.gg/7BRdmQ3bt2">Discord</a> для общения и обновлений.</p>
+            
+            <h2>Канал в Telegram</h2>
+            <p>Подпишитесь на наш канал в <a href="https://t.me/offerhvh">Telegram</a> для последних новостей и обсуждений.</p>
+        </section>
+
+        <div id="video-container">
+    <img src="https://i.pinimg.com/originals/bb/29/d1/bb29d1724a4b4f0b30acf18fa4d16ad0.gif" alt="Гифка">
+        </div>
+
+        <div class="social-icons">
+            <a href="#"><img src="https://i.pinimg.com/originals/e4/14/b4/e414b43b134bfdd54307bc41ff5f9bd5.jpg" alt="Discord"></a>
+            <a href="#"><img src="https://w7.pngwing.com/pngs/945/933/png-transparent-telegram-computer-icons-android-computer-software-mobile-phones-android-purple-violet-computer.png" alt="Telegram"></a>
+            <!-- Добавьте ссылки на соцсети и изображения для иконок по аналогии -->
+        </div>
+
+        <section class="server-info">
+            <h2>Дополнительная информация</h2>
+            <p>Мы регулярно проводим конкурсы, турниры и мероприятия для наших игроков. Присоединяйтесь к нам, чтобы не пропустить!</p>
+            
+            <h2>Правила сервера</h2>
+            <p>Чтобы поддерживать приятную атмосферу, мы просим игроков соблюдать <a href="#">правила сервера</a>. Они помогают создать комфортное и безопасное место для всех.</p>
+        </section>
+
+        <div class="server-info">
+            <h2>О нас</h2>
+            <p>Наш сервер посвящен общению, развлечениям и участию в различных играх. Мы ценим дружелюбие и взаимовыручку, поэтому приглашаем всех желающих стать частью нашего сообщества!</p>
+        </div>
+
+        <section class="server-info">
+            <h2>Связь с нами</h2>
+            <p>Если у вас есть вопросы или предложения, не стесняйтесь связаться с администрацией сервера. Мы всегда рады помочь и услышать ваше мнение!</p>
+        </section>
+
+        <!-- Дополнительная информация о сервере -->
+        <section class="server-info">
+            <h2>Наши игры</h2>
+            <p>Мы предлагаем широкий выбор игровых направлений. Включая DUELS, АНАРХИЯ,ГРИФ многое другое. Вы всегда найдете здесь что-то для себя!</p>
+        </section>
+
+        <section class="server-info">
+            <h2>Услуги сервера</h2>
+            <p>Мы предлагаем различные услуги, такие как виртуальные серверы, поддержку пользователей и многое другое. Узнайте больше, посетив наш сайт!</p>
+        </section>
+
+        <section class="server-info">
+            <h2>Сотрудничество</h2>
+            <p>Мы всегда открыты для сотрудничества с другими серверами и сообществами. Свяжитесь с нами для возможных партнерских отношений!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2023 OFFERHVH</p>
+    </footer>
+
+    <script>
+        document.getElementById('player-count').innerText = 'МНОГО';
+    </script>
+</body>
+</html>
